@@ -1,0 +1,23 @@
+import Image from "next/image";
+import React from "react";
+
+const NavBar = () => {
+  return (
+    <div className="flex items-center px-10 justify-between">
+      <div>
+        <Image src="/logo/logo.jpg" alt="Logo" width={150} height={80}/>
+      </div>
+      <div>
+        <ul className="flex items-center gap-10 text-lg text-[#000] mr-10 font-bold">
+          <li>About Us</li>
+          <li>Campaign</li>
+          <li>Donation</li>
+          <li>Blog</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default NavBar;
