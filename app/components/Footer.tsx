@@ -3,8 +3,8 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <section className="my-7">
-        <h3 className="text-center font-extrabold text-4xl mb-5 m">
+      <section className="my-10 py-10">
+        <h3 className="text-center font-extrabold text-5xl mb-5 m">
           Building a Brighter Future
         </h3>
         <p className="px-20 text-[#636363] text-lg text-center">
@@ -19,7 +19,7 @@ const Footer = () => {
           succeed
         </p>
       </section>
-      <section className="my-7">
+      <section className="my-7 py-10">
         <h5 className="text-[#046464] px-20 text-center font-extrabold text-4xl">
           ‘From Barefoot Beginnings to Boundless
           <br /> Possibilities: A Journey of Resilience,
