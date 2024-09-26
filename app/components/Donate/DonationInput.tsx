@@ -12,12 +12,19 @@ const DonationInput = () => {
   const handleDonate = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    const response = await axios.post("http://localhost:3000/api/donations", {
-      amount: Number(amount) * 100,
-      phone: "+254" + phone,
-    });
+    const response = await axios.post(
+      "https://joe-sang.netlify/api/donations",
+      {
+        amount: Number(amount) * 100,
+        phone: "+254" + phone,
+      }
+    );
 
-    console.log(response);
+    if (response.status === 200) {
+      alert("Wait fo mpesa popup");
+    } else {
+      alert("Donation failed");
+    }
   };
   return (
     <form onSubmit={(e) => handleDonate(e)} className="my-5">
