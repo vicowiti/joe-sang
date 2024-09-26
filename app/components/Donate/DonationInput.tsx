@@ -13,7 +13,7 @@ const DonationInput = () => {
     e.preventDefault();
 
     const response = await axios.post(
-      "https://joe-sang.netlify/api/donations",
+      "https://joe-sang.netlify.app/api/donations",
       {
         amount: Number(amount) * 100,
         phone: "+254" + phone,
