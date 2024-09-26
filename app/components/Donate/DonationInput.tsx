@@ -13,7 +13,7 @@ const DonationInput = () => {
     e.preventDefault();
 
     const response = await axios.post("http://localhost:3000/api/donations", {
-      amount,
+      amount: Number(amount) * 100,
       phone: "+254" + phone,
     });
 
