@@ -6,12 +6,12 @@ import Image from "next/image";
 const data = [
   {
     id: 1,
-    image: "/0.png",
+    image: "/0.jpeg",
   },
 
   {
     id: 2,
-    image: "/2.jpeg",
+    image: "/1.jpeg",
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const data = [
 const MyCarousel = () => {
   return (
     <section className="px-10">
-      <Carousel>
+      <Carousel autoPlay>
         {data.map((item) => (
           <div key={item.id}>
             <Image
@@ -34,7 +34,7 @@ const MyCarousel = () => {
               width={500}
               height={500}
               alt="Feature Image"
-              className="w-full h-[500px] object-cover"
+              className="w-full h-[650px] object-cover"
             />
           </div>
         ))}

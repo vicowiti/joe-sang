@@ -3,7 +3,10 @@ import DonationInput from "./DonationInput";
 
 const Donate = () => {
   return (
-    <section id="donate" className="px-20 py-20 flex flex-col gap-2 lg:flex-row h-screen bg-[#f5f5ff]">
+    <section
+      id="donate"
+      className="px-20 py-20 flex flex-col gap-2 lg:flex-row  bg-[#f5f5ff]"
+    >
       <div className="lg:w-[50%] ">
         <h2 className="font-extrabold text-4xl">Help Children Reach </h2>
         <h2 className="font-extrabold text-4xl mb-3">Their Full Potential</h2>

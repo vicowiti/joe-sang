@@ -7,7 +7,7 @@ const NavBar = () => {
       <div>
         <Image src="/logo/logo.jpg" alt="Logo" width={150} height={80} />
       </div>
-      <div>
+      <div className="hidden lg:flex">
         <ul className="flex items-center gap-10 text-lg text-[#000] mr-10 font-bold">
           <li className="hover:text-[#9ca909] hover:scale-105 duration-500">
             About Us

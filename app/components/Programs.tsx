@@ -3,13 +3,13 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const Programs = () => {
   return (
-    <div className="px-20 my-10">
+    <div className="px-5lg:px-20 my-10">
       <section className="grid lg:grid-cols-3 gap-10">
         {data.map((item) => (
           <article key={item.id} className="shadow-md p-5 rounded-lg">
             <Image
               src={item.image}
-              className="w-full h-96"
+              className="w-full lg:h-96"
               alt="program Image"
               width={100}
               height={100}
@@ -36,36 +36,35 @@ const data = [
     id: 1,
     title: "Education for All",
     subTitle: "Empowering minds, one child at a time.",
-    image: "/programs/Program1.png",
+    image: "/test/education.jpg",
   },
   {
     id: 2,
     title: "Health And Wellness",
     subTitle: "Ensuring healthier lives for vulnerable populations.",
-    image: "/programs/Program2.png",
+    image: "/test/health.jpg",
   },
   {
     id: 3,
     title: "Clean Water Project",
     subTitle: "Providing access to clean water in remote areas.",
-    image: "/programs/Program3.png",
+    image: "/test/clean-water.jpg",
   },
   {
     id: 4,
     title: "Food Security",
     subTitle: "Fighting hunger with sustainable solutions.",
-    image: "/programs/Program4.png",
+    image: "/test/foodsecurity.jpg",
   },
   {
     id: 5,
     title: "Women Empowerment",
     subTitle: "Empowering women to lead change.",
-    image: "/programs/Program5.png",
-  },
+    image: "/test/women.jpg"},
   {
     id: 6,
     title: "Disaster Relief",
     subTitle: "Providing aid and support during emergencies.",
-    image: "/programs/Program6.png",
+    image: "/test/disaster-relief.jpg",
   },
 ];
