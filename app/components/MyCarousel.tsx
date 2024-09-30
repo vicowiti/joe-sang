@@ -34,7 +34,7 @@ const MyCarousel = () => {
               width={500}
               height={500}
               alt="Feature Image"
-              className="w-full h-[650px] object-cover"
+              className="w-full h-[500px] object-cover"
             />
           </div>
         ))}
