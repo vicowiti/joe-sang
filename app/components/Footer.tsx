@@ -3,11 +3,11 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <section className="my-10 py-10">
+      <section className="my-10 lg:py-10">
         <h3 className="text-center font-extrabold text-5xl mb-5 m">
           Building a Brighter Future
         </h3>
-        <p className="px-20 text-[#636363] text-lg text-center">
+        <p className="px-20 text-[#636363] text-sm  lg:text-lg text-center">
           Joe is seeking partners who share his belief in the transformative
           power of education and the potential within every child.Together, the
           aim is to raise 200 million Kenya Shillings over the next two years.

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const NavBar = () => {
@@ -19,7 +20,7 @@ const NavBar = () => {
             <a href="#donate">Donation</a>
           </li>
           <li className="hover:text-[#9ca909] hover:scale-105 duration-500">
-            Blog
+           <Link href="blog"> Blog</Link>
           </li>
           <li className="hover:text-[#9ca909] hover:scale-105 duration-500">
             Contact

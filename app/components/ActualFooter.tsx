@@ -13,7 +13,7 @@ import { IoIosMail } from "react-icons/io";
 const ActualFooter = () => {
   return (
     <footer className="bg-[#232944] px-10 py-10 pt-20 text-[#a7a9b4]">
-      <section className="grid grid-cols-4 mb-3">
+      <section className="grid grid-cols-1 sm:grid-cols-4 mb-3">
         <div className="flex flex-col justify-between">
           <h4 className="text-lg text-white font-bold ">DreamCare</h4>
 

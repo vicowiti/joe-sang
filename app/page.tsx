@@ -1,5 +1,5 @@
 import ActualFooter from "./components/ActualFooter";
-import Donate from "./components/Donate/Donate";
+// import Donate from "./components/Donate/Donate";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import MyCarousel from "./components/MyCarousel";
@@ -18,7 +18,7 @@ export default function Home() {
       <MyCarousel />
       <Stats />
       <Programs />
-      <Donate />
+      {/* <Donate /> */}
 
       <Footer />
       <Banner/>
