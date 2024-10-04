@@ -7,38 +7,33 @@ import {
   Bars3Icon,
   ChatBubbleBottomCenterTextIcon,
   ChatBubbleLeftRightIcon,
-  InboxIcon,
   QuestionMarkCircleIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
+import { FaInfoCircle } from "react-icons/fa";
 import { FaFacebook, FaInstagram, FaTwitter, FaDonate } from "react-icons/fa";
 import { FaPeopleRoof } from "react-icons/fa6";
+import { MdCampaign } from "react-icons/md";
 
 const solutions = [
   {
-    name: "Inbox",
+    name: "About Us",
     description:
       "Get a better understanding of where your traffic is coming from.",
     href: "#",
-    icon: InboxIcon,
+    icon: FaInfoCircle,
   },
   {
-    name: "Messaging",
+    name: "Campaign",
     description: "Speak directly to your customers in a more meaningful way.",
     href: "#",
-    icon: ChatBubbleBottomCenterTextIcon,
+    icon: MdCampaign,
   },
   {
-    name: "Live Chat",
+    name: "Contact",
     description: "Your customers' data will be safe and secure.",
     href: "#",
     icon: ChatBubbleLeftRightIcon,
-  },
-  {
-    name: "Knowledge Base",
-    description: "Connect with third-party tools that you're already using.",
-    href: "#",
-    icon: QuestionMarkCircleIcon,
   },
 ];
 
@@ -232,39 +227,15 @@ export default function NewLanding() {
                   </div>
                 </div>
                 <div className="py-6 px-5">
-                  <div className="grid grid-cols-2 gap-4">
-                    <a
-                      href="#"
-                      className="text-base font-medium text-gray-900 hover:text-gray-700"
-                    >
-                      Pricing
-                    </a>
-                    <a
-                      href="#"
-                      className="text-base font-medium text-gray-900 hover:text-gray-700"
-                    >
-                      Partners
-                    </a>
-                    <a
-                      href="#"
-                      className="text-base font-medium text-gray-900 hover:text-gray-700"
-                    >
-                      Company
-                    </a>
-                  </div>
+                 
                   <div className="mt-6">
                     <a
                       href="#"
                       className="flex w-full items-center justify-center rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700"
                     >
-                      Sign up
+                      Donate
                     </a>
-                    <p className="mt-6 text-center text-base font-medium text-gray-500">
-                      Existing customer?
-                      <a href="#" className="text-gray-900">
-                        Sign in
-                      </a>
-                    </p>
+                   
                   </div>
                 </div>
               </div>
