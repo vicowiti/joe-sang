@@ -5,9 +5,7 @@ import { Popover, Transition } from "@headlessui/react";
 import Programs from "./Programs";
 import {
   Bars3Icon,
-  ChatBubbleBottomCenterTextIcon,
   ChatBubbleLeftRightIcon,
-  QuestionMarkCircleIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 import { FaInfoCircle } from "react-icons/fa";
