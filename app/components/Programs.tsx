@@ -5,24 +5,26 @@ const Programs = () => {
   return (
     <div className="px-5lg:px-20 my-10">
       <section className="grid lg:grid-cols-3 gap-10">
-        {data.map((item) => (
-          <article key={item.id} className="shadow-md p-5 rounded-lg">
-            <Image
-              src={item.image}
-              className="w-full lg:h-96"
-              alt="program Image"
-              width={100}
-              height={100}
-            />
-            <h5 className="font-bold text-lg mt-1">{item.title}</h5>
-            <p>{item.subTitle}</p>
-            <div>
-              <button className="w-full mt-2 hover:bg-[#9b9bff] hover:text-white hover:border-[#9b9bff] duration-500 flex border text-[#232944] rounded-lg py-2.5 border-[#232944] font-semibold text-sm items-center gap-3 justify-center">
-                Donate Now
-                <FaArrowRightLong />
-              </button>
+        {data.map((product) => (
+           <div key={product.id} className="group relative p-7 rounded-md shadow">
+              <div className="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
+                <Image
+                width={100}
+                height={100}
+                  src={product.image}
+                  alt={product.title}
+                  className="h-full w-full object-cover object-center lg:h-full lg:w-full"
+                />
+              </div>
+              <div className="mt-2 flex flex-col justify-between">
+                <div>
+                 
+                  <p className="mt-1 text-lg font-bold text-gray-900">{product.title}</p>
+                </div>
+                <p className="text-sm font-medium text-gray-500">{product.subTitle}</p>
+                <button className="flex items-center justify-center gap-3 font-bold mt-3 rounded-lg duration-300 hover:text-white p-3 w-full border hover:bg-[#9B9BFF]">Donate Now <FaArrowRightLong /></button>
+              </div>
             </div>
-          </article>
         ))}
       </section>
     </div>
