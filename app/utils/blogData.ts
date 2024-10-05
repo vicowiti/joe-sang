@@ -76,6 +76,6 @@ Others are Joyciline Jepkosgei, Irene Cheptai, Dorcas Tuitoek, Mary Ngugi-Cooper
 “Years later, that boy returned to the village as a university graduate, ready to make his own mark on the world. This is the power of a small act of kindness, a ripple that can turn into a wave of change.
 “By joining Joe in the Chicago Marathon, you are doing more than supporting a runner; you are investing in a future where every child has the chance to transform their life. Together, let’s make this journey from barefoot beginnings to boundless possibilities a reality. The goal is to raise 200 million Kenyan Shillings in the next two years, an investment that will empower countless lives and create a brighter future for all.”
 `,
-    author: "",
+    author: "Star Correspondent",
   },
 ];
