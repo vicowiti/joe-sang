@@ -6,6 +6,7 @@ import Link from "next/link";
 import React, { Fragment } from "react";
 import { FaInfoCircle } from "react-icons/fa";
 import { MdCampaign } from "react-icons/md";
+import { SiBlogger } from "react-icons/si";
 
 const solutions = [
   {
@@ -17,17 +18,25 @@ const solutions = [
   },
   {
     name: "Campaign",
-    description: "Speak directly to your customers in a more meaningful way.",
+    description: "See why we do what we do.",
     href: "#",
     icon: MdCampaign,
   },
   {
     name: "Contact",
-    description: "Your customers' data will be safe and secure.",
+    description: "Talk To Us.",
     href: "#",
     icon: ChatBubbleLeftRightIcon,
   },
+  {
+    name: "Blog",
+    description: "Our Blogs.",
+    href: "/blog",
+    icon: SiBlogger,
+  },
 ];
+
+
 
 const NavBar = () => {
   return (
@@ -36,7 +45,7 @@ const NavBar = () => {
         <div className="mx-auto flex w-full max-w-7xl items-center justify-between p-6 md:justify-start md:space-x-10 lg:px-8">
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <a href="#">
-              <span className="sr-only">Your Company</span>
+              <span className="sr-only">Org Logo</span>
               <Image
                 width={50}
                 height={50}
@@ -121,7 +130,7 @@ const NavBar = () => {
                     />
                   </div>
                   <div className="-mr-2">
-                    <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                    <Popover.Button  className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                       <span className="sr-only">Close menu</span>
                       <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                     </Popover.Button>
@@ -130,7 +139,7 @@ const NavBar = () => {
                 <div className="mt-6">
                   <nav className="grid grid-cols-1 gap-7">
                     {solutions.map((item) => (
-                      <a
+                      <Link
                         key={item.name}
                         href={item.href}
                         className="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50"
@@ -141,7 +150,7 @@ const NavBar = () => {
                         <div className="ml-4 text-base font-medium text-gray-900">
                           {item.name}
                         </div>
-                      </a>
+                      </Link>
                     ))}
                   </nav>
                 </div>
