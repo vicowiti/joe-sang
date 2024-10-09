@@ -27,10 +27,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${poppins_init.className} `}>
-        <TopBanner />
-        <NavBar />
+        {/* <TopBanner /> */}
+        {/* <NavBar /> */}
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );

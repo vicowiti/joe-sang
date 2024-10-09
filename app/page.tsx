@@ -8,20 +8,20 @@
 // import Stats from "./components/Stats";
 // import ClientHeader from './components/ClientHeader';
 // import Banner from "./components/Banner";
-import NewLanding from "./components/NewLanding";
+// import NewLanding from "./components/NewLanding";
 
 export default function Home() {
   return (
     <div className="text-sm ">
       {/* <ClientHeader/> */}
-      <NewLanding/>
+      {/* <NewLanding/> */}
       {/* <NavBar /> */}
       {/* <Header /> */}
       {/* <MyCarousel /> */}
       {/* <Stats /> */}
       {/* <Programs /> */}
       {/* <Donate /> */}
-
+      <p>Coming soon</p>
       {/* <Footer /> */}
       {/* <Banner/> */}
       {/* <ActualFooter /> */}
