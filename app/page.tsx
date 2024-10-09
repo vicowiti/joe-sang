@@ -38,7 +38,7 @@ export default function Home() {
           Coming Soon
         </h1>
         <p className="text-lg md:text-2xl mt-4 animate-fade-in-up animation-delay-2">
-          We're working hard to bring something amazing!
+          We are working hard to bring something amazing!
         </p>
 
         {/* Countdown Timer */}
