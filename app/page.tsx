@@ -21,7 +21,9 @@ export default function Home() {
       {/* <Stats /> */}
       {/* <Programs /> */}
       {/* <Donate /> */}
-      <p>Coming soon</p>
+      <p className="text-center w-full h-[200px] flex justify-center items-center font-bold">
+        Coming soon
+      </p>
       {/* <Footer /> */}
       {/* <Banner/> */}
       {/* <ActualFooter /> */}
