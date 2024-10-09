@@ -3,11 +3,9 @@
 import Image from "next/image";
 import Programs from "./Programs";
 
-import {  FaDonate } from "react-icons/fa";
+import { FaDonate } from "react-icons/fa";
 import { FaPeopleRoof } from "react-icons/fa6";
-
-
-
+import Link from "next/link";
 
 const metrics = [
   {
@@ -36,10 +34,9 @@ const metrics = [
   },
 ];
 
-
 export default function NewLanding() {
   return (
-    <div className="bg-white">     
+    <div className="bg-white">
       <main>
         {/* Hero section */}
         <div className="relative">
@@ -67,12 +64,12 @@ export default function NewLanding() {
                 </p>
                 <div className="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
                   <div className="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0">
-                    <a
-                      href="#"
+                    <Link
+                      href="/donate"
                       className="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium text-indigo-700 shadow-sm hover:bg-indigo-50 sm:px-8"
                     >
                       Donate Now
-                    </a>
+                    </Link>
                     <a
                       href="#"
                       className="flex items-center justify-center rounded-md border border-transparent bg-indigo-500 bg-opacity-60 px-4 py-3 text-base font-medium text-white shadow-sm hover:bg-opacity-70 sm:px-8"
@@ -121,12 +118,12 @@ export default function NewLanding() {
                       opportunities they need to succeed.
                     </p>
                     <div className="mt-6">
-                      <a
-                        href="#"
+                      <Link
+                        href="/donate"
                         className="inline-flex rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700"
                       >
                         Donate Today
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -169,12 +166,12 @@ export default function NewLanding() {
                       Together, we can build a brighter future for everyone.
                     </p>
                     <div className="mt-6">
-                      <a
-                        href="#"
+                      <Link
+                        href="/donate"
                         className="inline-flex rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700"
                       >
                         Donate Today
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -261,12 +258,12 @@ export default function NewLanding() {
               </span>
             </h2>
             <div className="mt-6 space-y-4 sm:flex sm:space-y-0 sm:space-x-5">
-              <a
-                href="#"
+              <Link
+                href="/donate"
                 className="flex items-center justify-center rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-3 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700"
               >
                 Donate
-              </a>
+              </Link>
               <a
                 href="#"
                 className="flex items-center justify-center rounded-md border border-transparent bg-indigo-50 px-4 py-3 text-base font-medium text-indigo-800 shadow-sm hover:bg-indigo-100"
@@ -277,8 +274,6 @@ export default function NewLanding() {
           </div>
         </div>
       </main>
-
-      
     </div>
   );
 }
