@@ -16,7 +16,6 @@ export const metadata: Metadata = {
   description: "Fundraiser",
   icons: {
     icon: "/logo/logo.jpg",
-
   },
 };
 
