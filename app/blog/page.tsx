@@ -34,7 +34,7 @@ export default function Blogs() {
                   width={100}
                   height={100}
                   className="h-48 w-full object-cover"
-                  src={`/0.png`}
+                  src={post.img}
                   alt=""
                 />
               </div>

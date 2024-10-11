@@ -1,5 +1,25 @@
 const people = [
   {
+    name: "Joe Sang",
+    role: "Director",
+    imageUrl: "/team/2.jpeg",
+    bio: `Mr. Sang holds a Master of Business Administration in Strategy, a Bachelor of Arts in
+Economics, and is a Certified Public Accountant (CPA K).
+With over 20 years of hands-on experience, he has held senior managerial positions in
+various organizations, including parastatals and multinational corporations.
+His previous roles include General Manager Finance and Strategy at KPC, Head of Group
+Business Performance &amp; Planning at East Africa Breweries Limited, Finance Director at East
+Africa Maltings Limited, Management Accountant at Unga Group, and Financial Accountant
+at National Oil Corporation of Kenya (NOCK).
+His diverse experience in finance, management, and strategic planning equips him to lead
+KPC as Africa&#39;s premier Oil and Gas Company.
+Mr. Sang is known for his collaborative leadership style, emphasizing teamwork, employee
+development, and delivering exceptional business performance. His passion for developing
+others and fostering a collaborative environment in all areas of his life.`,
+    twitterUrl: "#",
+    linkedinUrl: "#",
+  },
+  {
     name: "Jinaro Kibet",
     role: "Chairman",
     imageUrl: "/team/1.jpeg",
@@ -23,26 +43,6 @@ landscape both in the private and public sectors.
 He has been an avid ally of the Kenyan athletics fraternity, currently serving as Vice-
 President of Athletics Kenya. In addition, in 2020 he was appointed to the World Athletics
 Governance Commission and the Human Rights Working Group.`,
-    twitterUrl: "#",
-    linkedinUrl: "#",
-  },
-  {
-    name: "Joe Sang",
-    role: "Director",
-    imageUrl: "/team/2.jpeg",
-    bio: `Mr. Sang holds a Master of Business Administration in Strategy, a Bachelor of Arts in
-Economics, and is a Certified Public Accountant (CPA K).
-With over 20 years of hands-on experience, he has held senior managerial positions in
-various organizations, including parastatals and multinational corporations.
-His previous roles include General Manager Finance and Strategy at KPC, Head of Group
-Business Performance &amp; Planning at East Africa Breweries Limited, Finance Director at East
-Africa Maltings Limited, Management Accountant at Unga Group, and Financial Accountant
-at National Oil Corporation of Kenya (NOCK).
-His diverse experience in finance, management, and strategic planning equips him to lead
-KPC as Africa&#39;s premier Oil and Gas Company.
-Mr. Sang is known for his collaborative leadership style, emphasizing teamwork, employee
-development, and delivering exceptional business performance. His passion for developing
-others and fostering a collaborative environment in all areas of his life.`,
     twitterUrl: "#",
     linkedinUrl: "#",
   },

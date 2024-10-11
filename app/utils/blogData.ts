@@ -1,6 +1,7 @@
 export const blogData = [
   {
     id: 1,
+     img: "/blog/1.JPG",
     title:
       "Joe Sang’s 42-kilometre Chicago sacrifice to help needy children’s education",
     content: `The Chicago Marathon’s profile was seriously enhanced last year when Kenya’s late star Kelvin Kiptum ran a world record two hours and 35 seconds at “Windy City.”
@@ -50,6 +51,7 @@ But the most important fact is that they will have launched the Joe Sang Foundat
   },
   {
     id: 2,
+     img: "/blog/2.jpg",
     title:
       "Joe Sang’s Chicago Marathon challenge: Kenya Pipeline Company MD runs for charity",
     content: `“Joe Sang's journey began in the misty mornings of Kericho County, where he ran barefoot on cold, rough paths to reach school. Every morning was a battle against the chill, the wet grass, and the sharp stones that cut into his feet. Yet, each step was also a stride toward resilience, a journey of building the strength and determination that would later define his life.
@@ -81,6 +83,7 @@ Others are Joyciline Jepkosgei, Irene Cheptai, Dorcas Tuitoek, Mary Ngugi-Cooper
 
   {
     id:3,
+     img: "/blog/3.jpeg",
     author: "Joe Sang",
     title: "‘Why I’m running the Chicago Marathon’",
     content: `I’ve been training for the last couple of months for my first ever international marathon,
@@ -106,6 +109,7 @@ God bless you and asanteni sana!`
   },
   {
     id: 4,
+    img: "/blog/4.jpg",
     title: `‘Stopover in Saudi Arabia, journey challenges and my resilience’`
     , author:"Joe Sang",
     content:`Duty calls, and I had to make adjustments to my final preparations and travel plans, with work

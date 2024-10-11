@@ -2,11 +2,10 @@
 
 import Image from "next/image";
 import Programs from "./Programs";
-import AboutUs from "./AboutUs"
 import { FaDonate } from "react-icons/fa";
 import { FaPeopleRoof } from "react-icons/fa6";
 import Link from "next/link";
-import OurMission from "./OurMission"
+import OurMission from "./OurMission";
 
 const metrics = [
   {
@@ -133,11 +132,11 @@ export default function NewLanding() {
                 <div className="mt-8 border-t border-gray-200 pt-6"></div>
               </div>
               <div className="mt-12 sm:mt-16 lg:mt-0">
-                <div className="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+                <div className="-mr-48 lg:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
                   <Image
                     width={100}
                     height={100}
-                    className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                    className="w-full lg:rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                     src="/2.jpeg"
                     alt="Inbox user interface"
                   />
@@ -180,11 +179,11 @@ export default function NewLanding() {
                 </div>
               </div>
               <div className="mt-12 sm:mt-16 lg:col-start-1 lg:mt-0">
-                <div className="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+                <div className="-ml-48 lg:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
                   <Image
                     width={100}
                     height={100}
-                    className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                    className="w-full lg:rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
                     src="/0.jpeg"
                     alt="Customer profile user interface"
                   />
@@ -193,7 +192,7 @@ export default function NewLanding() {
             </div>
           </div>
         </div>
-<AboutUs/>
+
         <Programs />
 
         {/* Stats section */}

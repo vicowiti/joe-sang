@@ -70,7 +70,7 @@ const NavBar = () => {
           </div>
           <Popover.Group as="nav" className="hidden space-x-10 md:flex">
             <Link
-              href="/#about"
+              href="/about"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
             >
               About Us
