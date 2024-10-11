@@ -2,10 +2,11 @@
 
 import Image from "next/image";
 import Programs from "./Programs";
-
+import AboutUs from "./AboutUs"
 import { FaDonate } from "react-icons/fa";
 import { FaPeopleRoof } from "react-icons/fa6";
 import Link from "next/link";
+import OurMission from "./OurMission"
 
 const metrics = [
   {
@@ -82,6 +83,8 @@ export default function NewLanding() {
             </div>
           </div>
         </div>
+
+        <OurMission />
 
         {/* Alternating Feature Sections */}
         <div className="relative overflow-hidden pt-16 pb-32">
@@ -190,7 +193,7 @@ export default function NewLanding() {
             </div>
           </div>
         </div>
-
+<AboutUs/>
         <Programs />
 
         {/* Stats section */}

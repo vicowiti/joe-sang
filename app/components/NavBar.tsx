@@ -51,7 +51,7 @@ const NavBar = () => {
       <Popover className="relative bg-white">
         <div className="mx-auto flex w-full max-w-7xl items-center justify-between p-6 md:justify-start md:space-x-10 lg:px-8">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <a href="#">
+            <Link href="/">
               <span className="sr-only">Org Logo</span>
               <Image
                 width={50}
@@ -60,7 +60,7 @@ const NavBar = () => {
                 src="/logo/logo.jpg"
                 alt="logo"
               />
-            </a>
+            </Link>
           </div>
           <div className="-my-2 -mr-2 md:hidden">
             <PopoverButton className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -69,12 +69,12 @@ const NavBar = () => {
             </PopoverButton>
           </div>
           <Popover.Group as="nav" className="hidden space-x-10 md:flex">
-            <a
-              href="#"
+            <Link
+              href="/#about"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
             >
               About Us
-            </a>
+            </Link>
             <a
               href="#"
               className="text-base font-medium text-gray-500 hover:text-gray-900"

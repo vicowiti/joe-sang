@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
-// import TopBanner from "./components/TopBanner";
-// import NavBar from "./components/NavBar";
-// import Footer from "./components/Footer";
+import TopBanner from "./components/TopBanner";
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 const poppins_init = Montserrat({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -27,10 +27,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${poppins_init.className} `}>
-        {/* <TopBanner /> */}
-        {/* <NavBar /> */}
+        <TopBanner />
+        <NavBar />
         {children}
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );

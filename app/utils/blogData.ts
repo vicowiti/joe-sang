@@ -78,4 +78,59 @@ Others are Joyciline Jepkosgei, Irene Cheptai, Dorcas Tuitoek, Mary Ngugi-Cooper
 `,
     author: "Star Correspondent",
   },
+
+  {
+    id:3,
+    author: "Joe Sang",
+    title: "‘Why I’m running the Chicago Marathon’",
+    content: `I’ve been training for the last couple of months for my first ever international marathon,
+which is coming up on October 13 in Chicago.
+I feel I’m ready for it and I’m ready to conquer it.
+I’m running because I also want to give back to that needy child way back in the villages who
+have the potential but don’t have the means. That needy child who needs school fees to go
+to school so that he or she can be able to achieve full potential.
+So far, through the Joe Sang Foundation, we have been able to see enormous support from
+Kenyans who have been able to contribute a good amount of money towards this initiative.
+I’m running the Chicago Marathon for impact. To transform a life, and to help that needy
+child way back in the villages whose parents don’t have the means to pay their school fees.
+Under the Joe Sang Foundation, we will be able to help the underprivileged to go to school.
+My friends challenged me and that’s when I decided to run the Chicago Marathon. I will be
+running, not as Managing Director, but as an individual to create an impact to society.”
+This (Endowment Fund) will go into perpetuity. It will outlive me, outlive all of us and in
+future, I’d like people to say ‘there lived a man who created the Joe Sang Foundation that
+has educated children.’
+This dream will be a reality and that’s why I’m appealing for support and contributions.
+I’m kindly requesting you to support this initiative and donate to the Joe Sang Foundation,
+and together we shall transform a child’s life, one child at a time.
+God bless you and asanteni sana!`
+  },
+  {
+    id: 4,
+    title: `‘Stopover in Saudi Arabia, journey challenges and my resilience’`
+    , author:"Joe Sang",
+    content:`Duty calls, and I had to make adjustments to my final preparations and travel plans, with work
+obligations prompting me to travel to Saudi Arabia.
+Temperatures in Riyadh are high, at about 38 degrees Celcius, and you just can’t do any run.
+So I had to settle for half-hour gym sessions in the hotel and stretches.
+The most important thing for the last few days before a marathon is to avoid getting any potential
+injuries.
+My plan is when I arrive in Chicago, together with my training partner John Terer, we shall attempt a
+five-kilometre or seven-kilometre run on Saturday or even join the elite Kenyan runners for their pre-
+race runs.
+I have already spoken with Ruth Chepng’etich and Amos Kipruto, the top Kenyan elite runners in
+Chicago this Sunday, and we shall see how to fit into their programme.
+I also plan to join in the Kenyan Marathon Dinner on Friday night where we shall mingle with the
+Kenyan community in Chicago alongside Kenyan and Ethiopian elite runners.
+The travelling bit is also quite tricky!
+I have a two-hour flight from Riyadh to Dubai after which I connect on a 15-hour flight from Dubai to
+Chicago.
+On such flights when headed for a big run, it’s important to hydrate well by drinking lots of water,
+and also pacing up and down the aisle so that your muscles don’t get too stiff.
+You certainly cannot afford to sit down the entire 15-hour trip!
+I’m running in Chicago to make a change.
+Through the Joe Sang Foundation, I’m seeking to raise over Sh200 million to benefit needy children by
+affording them a chance at education over the next few years.
+That’s why I’m kindly requesting you to support this initiative and donate to the Joe Sang Foundation,
+and together we shall transform a child’s life, one child at a time.`
+  }
 ];

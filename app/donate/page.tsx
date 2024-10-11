@@ -1,48 +1,50 @@
 "use client";
-import axios from "axios";
-import { useState } from "react";
+// import axios from "axios";
+// import { useState } from "react";
+import PaymentMethods from "../components/PaymentMethods"
 
 /* This example requires Tailwind CSS v3.0+ */
 export default function Example() {
-  const [phone, setPhone] = useState("");
-  const [amount, setAmount] = useState("");
-  const [loading, setLoading] = useState(false);
+  // const [phone, setPhone] = useState("");
+  // const [amount, setAmount] = useState("");
+  // const [loading, setLoading] = useState(false);
 
-  const handleDonate = async () => {
-    if (!phone || !amount) {
-      alert("Please fill in all fields");
-      return;
-    }
-    setLoading(true);
-    const response = await axios.post(
-      "https://nextpayapi.nextus.co.ke/api/v1/transactions/stk_push",
-      {
-        amountPaid: Number(amount),
-        msisdn: phone,
-      },
-      {
-        headers: {
-          "Content-Type": "application/json",
-          apikey:
-            "bnVsbDoyNDcyNDc6QzJCOjdEREIxN0Y5ODI0NzRCRjVCMjBENDVGRjA1OTEzNzYw",
-        },
-      }
-    );
+  // const handleDonate = async () => {
+  //   if (!phone || !amount) {
+  //     alert("Please fill in all fields");
+  //     return;
+  //   }
+  //   setLoading(true);
+  //   const response = await axios.post(
+  //     "https://nextpayapi.nextus.co.ke/api/v1/transactions/stk_push",
+  //     {
+  //       amountPaid: Number(amount),
+  //       msisdn: phone,
+  //     },
+  //     {
+  //       headers: {
+  //         "Content-Type": "application/json",
+  //         apikey:
+  //           "bnVsbDoyNDcyNDc6QzJCOjdEREIxN0Y5ODI0NzRCRjVCMjBENDVGRjA1OTEzNzYw",
+  //       },
+  //     }
+  //   );
 
-    setLoading(false);
+  //   setLoading(false);
 
-    if (response.status === 200) {
-      alert("Wait for mpesa popup");
-      setPhone("");
-      setAmount("");
-    } else {
-      alert("Donation failed");
-    }
-  };
+  //   if (response.status === 200) {
+  //     alert("Wait for mpesa popup");
+  //     setPhone("");
+  //     setAmount("");
+  //   } else {
+  //     alert("Donation failed");
+  //   }
+  // };
 
   return (
     <div className="relative bg-gray-900">
-      <div className="relative h-80 overflow-hidden bg-indigo-600 md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2">
+      <PaymentMethods/>
+      {/* <div className="relative h-80 overflow-hidden bg-indigo-600 md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2">
         <img className="h-full w-full object-cover" src="/3.jpeg" alt="" />
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -110,7 +112,7 @@ export default function Example() {
             </button>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
