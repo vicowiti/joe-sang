@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title: "Joe Sang Foundation",
   description: "Fundraiser",
   icons: {
-    icon: "/logo/logo.jpg",
+    icon: "/logo/favicon.ico",
   },
 };
 
@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${poppins_init.className} `}>
-        <link rel="icon" href="/logo/logo.jpg" sizes="any" />
+        <link rel="icon" href="/logo/favicon.ico" sizes="any" />
         <TopBanner />
         <NavBar />
         {children}
