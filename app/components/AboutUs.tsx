@@ -12,7 +12,7 @@ Business Performance &amp; Planning at East Africa Breweries Limited, Finance Di
 Africa Maltings Limited, Management Accountant at Unga Group, and Financial Accountant
 at National Oil Corporation of Kenya (NOCK).
 His diverse experience in finance, management, and strategic planning equips him to lead
-KPC as Africa&#39;s premier Oil and Gas Company.
+KPC as Africa's premier Oil and Gas Company.
 Mr. Sang is known for his collaborative leadership style, emphasizing teamwork, employee
 development, and delivering exceptional business performance. His passion for developing
 others and fostering a collaborative environment in all areas of his life.`,

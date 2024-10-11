@@ -22,7 +22,7 @@ const solutions = [
     name: "About Us",
     description:
       "Get a better understanding of where your traffic is coming from.",
-    href: "#",
+    href: "/about",
     icon: FaInfoCircle,
   },
   {
