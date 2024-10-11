@@ -3,12 +3,13 @@ export const blogData = [
     id: 1,
      img: "/blog/1.JPG",
      feature: "/feature/1.jpg",
+     feature1: "/feature/4.jpg",
     title:
       "Joe Sang’s 42-kilometre Chicago sacrifice to help needy children’s education",
     content: `The Chicago Marathon’s profile was seriously enhanced last year when Kenya’s late star Kelvin Kiptum ran a world record two hours and 35 seconds at “Windy City.”
 It is on the same course that another Kenyan, Brigid Kosgei, improved Briton Paula Radcliffe’s women’s world record with an amazing run of 2:14:04 in 2019, with Ethiopia’s Tgist Assefa improving that mark to mind-boggling 2:11:53 in Berlin last year.
 Former world champion Ruth Chepng’etich came close to her compatriot Kosgei’s record in Chicago, the 2019 world champion running 2:14:08, just 14 seconds outside, during the 2022 Chicago Marathon.
-<br/>
+
 With its latest array of record-breaking athletes (add Dutchwoman Sifan Hassan’s second fastest ever time and course record of 2:13:44 last year) the Bank of America Chicago course has become more attractive to elite and upcoming athletes alike.
 “Running the Bank of America Chicago Marathon is the pinnacle of achievement for elite athletes and everyday runners alike. On race day, runners will set out to accomplish a personal dream by reaching the finish line in Grant Park,” organisers say ahead of this year’s 46th edition race on October 13.
 Among the everyday runners chasing the Grant Park finish next month is Kenya Pipeline Company Managing Director Joe Sang, an avid runner who has picked “Windy City” to launch his charity – the Joe Sang Foundation - that will set out to raise funds to support the education of needy children.
@@ -38,7 +39,10 @@ Sang has been an avid runner for the last 10 years, starting with five kilometre
 “That’s why I registered for the Chicago Marathon on October 13, and with your contribution, together, we will be able to support that one child. For every mile, we will be able to transform a life and we will be able to transform a life and help that child go through the challenges of life. We will be able to turn challenges into opportunities.”
 Besides world championships medalists Amos Kipruto (bronze in Doha 2019) and Ruth Chepng’etich (gold in Doha 2019), other elite Kenyans in Chicago include Vincent Ng’etich, John Korir and Daniel Simiu Ebenyo who will be making a marathon debut.
 The other elites are Joyciline Jepkosgei, Irene Cheptai, Dorcas Tuitoek, Mary Ngugi-Cooper and Stacey Ndiwa.
-“There is a story Joe often recalls from his village in Kabianga, Kericho County. A boy, much like Joe, who ran to school every day with shoes that were falling apart. 
+
+`,
+    author: "Star Correspondent",
+    content2: `“There is a story Joe often recalls from his village in Kabianga, Kericho County. A boy, much like Joe, who ran to school every day with shoes that were falling apart. 
 “The day those shoes finally gave out, Joe handed him a spare pair of his own, and in doing so, gave him more than just footwear—he gave him hope, a chance to keep running toward his dreams,” the Joe Sang Foundation brochure further narrates.
 “Years later, that boy returned to the village as a university graduate, ready to make his own mark on the world. This is the power of a small act of kindness, a ripple that can turn into a wave of change.
 “By joining Joe in the Chicago Marathon, you are doing more than supporting a runner; you are investing in a future where every child has the chance to transform their life. Together, let’s make this journey from barefoot beginnings to boundless possibilities a reality. The goal is to raise 200 million Kenyan Shillings in the next two years, an investment that will empower countless lives and create a brighter future for all.”
@@ -46,14 +50,13 @@ The Bank of America Chicago Marathon has a course time limit of six hours and 30
 According to organisers, “runners must maintain a 15-minute per mile pace or faster, completing the full marathon distance—start line to finish line—within the event time requirement. 
 “Those who finish outside of the time limit will not be recorded as official finishers and may not receive full on-course support from aid stations and traffic safety personnel.”
 With his half marathon PB of 1:32:44, Sang and his “running mate” Terer are expected to finish the 42-kilometre distance inside three hours, 10 minutes, holding all factors constant.
-But the most important fact is that they will have launched the Joe Sang Foundation’s journey towards aiding needy children gain education and transform their lives.
-`,
-    author: "Star Correspondent",
+But the most important fact is that they will have launched the Joe Sang Foundation’s journey towards aiding needy children gain education and transform their lives.`
   },
   {
     id: 2,
      img: "/blog/2.jpg",
      feature: "/feature/2.jpg",
+      feature1: "/feature/3.jpg",
     title:
       "Joe Sang’s Chicago Marathon challenge: Kenya Pipeline Company MD runs for charity",
     content: `“Joe Sang's journey began in the misty mornings of Kericho County, where he ran barefoot on cold, rough paths to reach school. Every morning was a battle against the chill, the wet grass, and the sharp stones that cut into his feet. Yet, each step was also a stride toward resilience, a journey of building the strength and determination that would later define his life.
@@ -71,21 +74,23 @@ Sang endured a four-year court process following allegations of financial improp
 “After the four years court process, I was vindicated and during my time out, I would meet and interact with the tea pluckers and their children and their plight touched me… so when I resumed my duties last year, I felt I needed to support these boys and girls who have the potential but lack fees.
 “My friends challenged me and that’s when I decided to run the Chicago Marathon. I will be running, not as Managing Director, but as an individual to create an impact to society.”
 The Joe Sang Foundation plans to come up with an endowment fund to help educate the needy children.
-“This will go into perpetuity. It will outlive me, outlive all of us and in future, I’d like people to say ‘there lived a man who created the Joe sang Foundation that has educated children.’
+”
+`,
+    author: "Star Correspondent",
+     content2: `“This will go into perpetuity. It will outlive me, outlive all of us and in future, I’d like people to say ‘there lived a man who created the Joe sang Foundation that has educated children.’
 “This dream will be a reality and that’s why I’m appealing for support and contributions – we will publish the details of the paybill number and bank account soon. We already have a lot of support from people in Kenya and abroad, who are ready to support our foundation.”
 Sang’s personal journey has also been the motivation behind his run, having come from humble beginnings, running barefoot to school in Kabianga, Kericho County.
 Besides Kipruto and Chepng’etich, other elite Kenyans in Chicago include Vincent Ng’etich, John Korir and Daniel Simiu Ebenyo who will be making a marathon debut.
 Others are Joyciline Jepkosgei, Irene Cheptai, Dorcas Tuitoek, Mary Ngugi-Cooper and Stacey Ndiwa.
 “There is a story Joe often recalls from his village in Kabianga, Kericho County. A boy, much like Joe, who ran to school every day with shoes that were falling apart. The day those shoes finally gave out, Joe handed him a spare pair of his own, and in doing so, gave him more than just footwear—he gave him hope, a chance to keep running toward his dreams,” the Joe Sang Foundation brochure further narrates.
 “Years later, that boy returned to the village as a university graduate, ready to make his own mark on the world. This is the power of a small act of kindness, a ripple that can turn into a wave of change.
-“By joining Joe in the Chicago Marathon, you are doing more than supporting a runner; you are investing in a future where every child has the chance to transform their life. Together, let’s make this journey from barefoot beginnings to boundless possibilities a reality. The goal is to raise 200 million Kenyan Shillings in the next two years, an investment that will empower countless lives and create a brighter future for all.”
-`,
-    author: "Star Correspondent",
+“By joining Joe in the Chicago Marathon, you are doing more than supporting a runner; you are investing in a future where every child has the chance to transform their life. Together, let’s make this journey from barefoot beginnings to boundless possibilities a reality. The goal is to raise 200 million Kenyan Shillings in the next two years, an investment that will empower countless lives and create a brighter future for all.`
   },
 
   {
     id:3,
     feature: "/feature/3.jpg",
+    feature1: "/feature/2.jpg",
      img: "/blog/3.jpeg",
     author: "Joe Sang",
     title: "‘Why I’m running the Chicago Marathon’",
@@ -100,7 +105,8 @@ Kenyans who have been able to contribute a good amount of money towards this ini
 I’m running the Chicago Marathon for impact. To transform a life, and to help that needy
 child way back in the villages whose parents don’t have the means to pay their school fees.
 Under the Joe Sang Foundation, we will be able to help the underprivileged to go to school.
-My friends challenged me and that’s when I decided to run the Chicago Marathon. I will be
+My friends challenged me and that’s when I decided to run the Chicago Marathon.`,
+ content2: ` I will be
 running, not as Managing Director, but as an individual to create an impact to society.”
 This (Endowment Fund) will go into perpetuity. It will outlive me, outlive all of us and in
 future, I’d like people to say ‘there lived a man who created the Joe Sang Foundation that
@@ -113,6 +119,7 @@ God bless you and asanteni sana!`
   {
     id: 4,
     feature: "/feature/4.jpg",
+    feature1: "/feature/1.jpg",
     img: "/blog/4.jpg",
     title: `‘Stopover in Saudi Arabia, journey challenges and my resilience’`
     , author:"Joe Sang",
@@ -132,13 +139,15 @@ Kenyan community in Chicago alongside Kenyan and Ethiopian elite runners.
 The travelling bit is also quite tricky!
 I have a two-hour flight from Riyadh to Dubai after which I connect on a 15-hour flight from Dubai to
 Chicago.
-On such flights when headed for a big run, it’s important to hydrate well by drinking lots of water,
+.`,
+ content2: `
+ On such flights when headed for a big run, it’s important to hydrate well by drinking lots of water,
 and also pacing up and down the aisle so that your muscles don’t get too stiff.
 You certainly cannot afford to sit down the entire 15-hour trip!
 I’m running in Chicago to make a change.
 Through the Joe Sang Foundation, I’m seeking to raise over Sh200 million to benefit needy children by
 affording them a chance at education over the next few years.
 That’s why I’m kindly requesting you to support this initiative and donate to the Joe Sang Foundation,
-and together we shall transform a child’s life, one child at a time.`
+and together we shall transform a child’s life, one child at a time`
   }
 ];

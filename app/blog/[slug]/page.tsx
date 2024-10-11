@@ -11,11 +11,14 @@ export default function Page({ params }: { params: { slug: string } }) {
         <h6>By: {blog?.author}</h6>
       </div>
 
-````<div>
+<div>
   <img src={blog?.feature} className='w-full h-auto rounded my-3'/>
 </div>
       <main>
         <p><span className="font-bold text-2xl">{blog?.content[0]}</span>{content}</p>
+
+        <img src={blog?.feature1} className='w-full h-auto rounded my-3'/>
+        <p>{blog?.content2}</p>
       </main>
     </div>
   );
