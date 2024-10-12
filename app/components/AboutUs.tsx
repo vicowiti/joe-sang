@@ -46,6 +46,18 @@ Governance Commission and the Human Rights Working Group.`,
     twitterUrl: "#",
     linkedinUrl: "#",
   },
+  {
+    name: "Charles Ian Kibet",
+    role: "Director",
+    imageUrl: "/team/3.jpg",
+    bio: `He holds a BSc. Electrical Engineering Major in Telecommunication & Information Engineering from JKUAT and MSc. Project Management from the same University. He has certification in Project Management, Contract Management, Geothermal Project Financing and he has a Diploma and Higher Diploma in Management of Information Systems from The Institute for the Management of Information Systems (I.M.I.S).
+
+He is a member of several professional bodies among them being Engineers Board of Kenya, Geothermal Association of Kenya, and The Institute of Engineers of Kenya.
+
+He is currently serving as the Technical Assistant to the MD & CEO KenGen Plc and also as The Alternative Business Manager under Commercial Services Division KenGen Plc.`,
+    twitterUrl: "#",
+    linkedinUrl: "#",
+  },
 ];
 
 export default function AboutUs() {
