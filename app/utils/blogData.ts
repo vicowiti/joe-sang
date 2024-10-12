@@ -118,7 +118,7 @@ God bless you and asanteni sana!`
   },
   {
     id: 4,
-    feature: "/feature/4.jpg",
+    feature: "/chicago.jpg",
     feature1: "/feature/1.jpg",
     img: "/blog/4.jpg",
     title: `‘Stopover in Saudi Arabia, journey challenges and my resilience’`
