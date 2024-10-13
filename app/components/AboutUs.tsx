@@ -1,5 +1,4 @@
 const people = [
- 
   {
     name: "Jinaro Kibet",
     role: "Chairman",
@@ -39,7 +38,7 @@ He is currently serving as the Technical Assistant to the MD & CEO KenGen Plc an
     twitterUrl: "#",
     linkedinUrl: "#",
   },
-   {
+  {
     name: "Joe Sang",
     role: "Director",
     imageUrl: "/team/2.jpeg",

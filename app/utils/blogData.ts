@@ -150,4 +150,51 @@ affording them a chance at education over the next few years.
 That’s why I’m kindly requesting you to support this initiative and donate to the Joe Sang Foundation,
 and together we shall transform a child’s life, one child at a time`,
   },
+  {
+    id: 5,
+    feature: "/chicago/1.jpeg",
+    feature1: "/chicago/2.jpeg",
+    img: "/chicago/1.jpeg",
+    title: `Chicago here we come! Moment of reckoning for charity runner Joe Sang`,
+    author: "Joe Sang",
+    content: `With temperatures hovering between 60 and 67 degrees, Fahrenheit (15.5 to 19.4 degrees
+Celsius), the city of Chicago was overcast and cloudy, but the mood of the residents and visitors
+was clearly festive and upbeat on the eve of the 46 th running of the Bank of America Chicago
+Marathon.
+This weekend, over 50,000 runners from different countries and diverse background descend
+on this popular city in the heart of Illinois.
+One of the six marathon majors, the race is the fourth largest in the world (by number of
+finishers).
+It is in this meet last year that Kelvin Kiptum burst into the world scene, thundering through the
+course in two hours and 35 minutes (2:00:35) and shattering the world record.
+The 2024 entries are northward of 50,000, certainly the biggest entry list in the marathon’s
+illustrious history.
+Among the recreational runners will be a soft-spoken Joe Sang, the Managing Director of Kenya
+Pipeline Company.
+Sang, a well-known ‘A’ list executive and recreational runner, brings his trademark steely focus
+from the boardroom to the marathon course.`,
+    content2: `
+A fitness junkie, he will be participating in this event to raise funds for the Joe Sang Foundation,
+a Kenyan non-profit organization that seeks to empower young children from disadvantaged
+backgrounds by giving them an opportunity at education.
+Sang himself grew up in poverty and has worked extremely hard to get ahead.
+Today, he strives to improve the fortune of others through education, healthcare and social
+services.
+He sums it up: “every child deserves a chance, and I’m doing this marathon as part of efforts to
+better the lives of children who are unable to access the basic needs.
+“I have come from such a background and my vision is to improve the lives of as many children
+as I can, one at a time.
+“I invite people of goodwill to join this cause and give a helping hand through the foundation.
+Every mile I run this weekend will be to raise money for this cause.”
+Even though he is participating in this event for charity, Joe’s competitive nature comes
+through. The ever-dedicated man he is, I caught him raring to go, as he warmed up in the
+streets of Chicago on the eve of the event.
+“How do you feel about this weekend’s run?”, I asked.
+“I’m ready!! I’m always ready! Chicago, here we come!” an upbeat Sang quipped as he jogged
+off.
+To follow Joe Sang and track his progress at the event, log on to www.chicagomarathon 2024.
+Enter Bib # 21301 and cheer Joe as he throttles through the streets of Chicago. Also follow his
+fundraising work on www.joesangfoundation.com and on social media at:
+thejoesang_foundation (Instagram)`,
+  },
 ];
