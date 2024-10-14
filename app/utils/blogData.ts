@@ -194,7 +194,56 @@ streets of Chicago on the eve of the event.
 off.
 To follow Joe Sang and track his progress at the event, log on to www.chicagomarathon 2024.
 Enter Bib # 21301 and cheer Joe as he throttles through the streets of Chicago. Also follow his
-fundraising work on www.joesangfoundation.com and on social media at:
+fundraising work on www.thejoesangfoundation.com and on social media at:
 thejoesang_foundation (Instagram)`,
+  },
+
+  {
+    id: 6,
+    feature: "/marathon/1.png",
+    feature1: "/marathon/2.jpeg",
+    img: "/marathon/1.png",
+    title: `‘I have done it!’ Joe Sang completes brilliant Chicago Marathon run for education charity`,
+    author: "Douglas Maina, Special Correspondent, in Chicago",
+    content: `For Joe Sang, every kilometre in any marathon holds great weight and responsibility.
+With every step he makes, he feels like he is inching closer to fulfilling his dream of empowering
+children from disadvantaged backgrounds in his rural Kenya.
+Every year Joe, an avid marathoner and astute golfer, swaps his suit with a tracksuit and takes
+on the most challenging marathon courses.
+Through his Joe Sang Foundation, he seeks to raise funds to educate and provide basic
+necessities for hundreds of school going children who come from poor backgrounds.
+Joe, who is also the Managing Director of Kenya Pipeline Company, is on a personal quest to
+change young lives, one at a time.
+In his calendar, World Athletics Platinum labeled Chicago Marathon was next in his quest.
+With the help of his training partner Joe Terer, this philanthropic recreational runner put in
+hours of training and exercise.
+As he set off for the start line, he was poised for another finish, and optimistic in setting a good
+time.
+The weather in Chicago was perfect, slow winds of between 4-14 mph and low temperatures
+hovering around 20 degrees Celsius.
+As more than 50,000 athletes took to the Chicago course, Joe felt like he carried the future of
+hundreds of kids on his shoulders.`,
+    content2: `
+As he turned the first corner and crossed over the Chicago River, his determination and his
+drive to succeed kicked in and a refreshed Joe pushed on.
+His training partner John Terer ran by his side, echoing his steps and they cruised through the
+streets of the windy city armed with a steady resolve to reach the last mile.
+The two men were clearly on a mission and it is as if the thousands of spectators knew that,
+because they cheered them on, louder with each step.
+At the halfway mark, a little fatigue set in, but the determination kept winning, and the feet
+kept moving.
+As he crossed the bridge once again onto State Ave, Joe remembered that with every mile he
+ran, he could improve the life of a child who currently has no hope. Growing up, Joe faced
+hardship and he now feels compelled to improve the life of others.
+These are the thoughts that fueled the athlete as he crossed the finish line in 3:07:21.
+Speaking after race, Joe could not mask his excitement: “We have done it! The weather was
+great and although I struggled a bit at mile 26, I did not give up. I knew I had to keep going.
+“A lot of people promised to support our cause through the foundation. They said if I complete
+this run, they will support our programmes. I have done my part. I cannot be happier.”
+As the curtains close on the 46 th Bank of America Chicago Marathon, Joe Sang and his team of
+volunteers shift gears in their continued charity work.
+As they plan for the next event, they continue to call on people of goodwill to support this
+worthy cause. Join the movement. And just like Joe, purpose to change a life, a step at a time.
+For more information on how to be involved, please visit www.thejoesangfoundation.org`,
   },
 ];
