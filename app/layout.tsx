@@ -24,6 +24,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  console.log(children);
+
   return (
     <html lang="en">
       <body className={`${poppins_init.className} `}>
