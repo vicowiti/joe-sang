@@ -35,12 +35,12 @@ export default function RootLayout({
         {children}
         <Footer /> 
 
-        <div className="h-screen w-screen flex justify-center items-center bg-black text-white font-bold text-2xl">
+        {/* <div className="h-screen w-screen flex justify-center items-center bg-black text-white font-bold text-2xl">
           <p>
             {" "}
             Service <span className="text-red-600">Terminated</span>
           </p>
-        </div>
+        </div> */}
       </body>
     </html>
   );
